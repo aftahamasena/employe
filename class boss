@@ -1,0 +1,30 @@
+package employee;
+
+public class bos extends Employee {
+
+    @Override
+    void nama(String nama) {
+        this.nama = nama;
+    }
+
+    @Override
+    void status(String status) {
+        this.status = status;
+    }
+
+    @Override
+    void nip(int nip) {
+        this.nip = nip;
+    }
+
+    @Override
+    void waktu(int waktu) {
+        this.waktu = waktu;
+    }
+
+    //overload
+    void nama() {
+        this.nama = "Bos";
+    }
+
+}
